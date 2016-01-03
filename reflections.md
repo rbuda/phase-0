@@ -19,4 +19,7 @@ rmdir - removes/deletes directory
 rm - removes/deletes file
 help - opens list of common commands
 
-### 
+### Forking and Cloning
+
+Once you've created a GitHub profile, select "New Repository" from the + menu in the top riight.  Give your new repository a name, select public/private & create.  To fork, select the repository you'd like to fork and click "fork" in the top right.  After this select your profile.  Now copy the URL and paste it in your terminal after git clone (paste URL here).  
+It is smarter to fork a repository as adding your work to the original is easier than starting a new repository and trying to add it back to the original.  I struggled with deleting my original clone and starting over.  git help is a good cmd to know for referencing cmds.  I ended up having to do rm -R ph0-cli-exploration which prompted me to answer y to about a dozen requests.  There has to be an easier way....
