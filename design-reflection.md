@@ -4,7 +4,7 @@
 		<meta charset="UTF-8">
 	</head>
 	<body>
-		<img src="/Users/ryannebuda/phase0/week-2/imgs/site-map.jpg" alt="Site Map">
+		![Site Map](/Users/ryannebuda/phase0/week-2/imgs/site-map.jpg)
 		<h1>What are the 6 Phases of Web Design? Information Gathering, Planning, Design, Development, Testing & Delivery, Maintenance</h1>
 		<h1>What is your site's primary goal or purpose? What kind of content will your site feature? Website will be a snapshot of my knowledge and work portfolio.  Will have links and snapshots to websites and design work I've done, a blog to show what I'm learning and can comfortably share and contact information.</h1>
 		<h1>What is your target audience's interests and how do you see your site addressing them? Their interests will be to get a deeper look at my resume of work and possibly to learn a thing or two about web development from the blog.</h1>
