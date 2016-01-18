@@ -1,0 +1,96 @@
+/* Navigation */
+
+nav {
+	text-align: center;
+	padding: 10px 0;
+	margin: 20px 0 0;
+}
+
+nav ul {
+	list-style: none;
+	margin: 0 10px;
+	padding: 0;
+}
+
+nav li {
+	display: inline-block;
+}
+
+nav a {
+	font-weight: 800;
+	padding: 15px 10px;
+}
+
+/* Aside */
+
+aside {
+	float: right;
+	padding-right: 10px;
+	border-style: dotted;
+	border-width: 1px;
+	border-spacing: 50px 50px;
+}
+
+/* Picture */
+
+
+
+/* Blog */
+
+#blog {
+	border: solid;
+	float: left;
+	position: fixed;
+}
+
+#blog h1 {
+	font-size: 3em;
+	font-style: oblique;
+}
+
+#blog p {
+	font-size: 1.5em;
+
+}
+
+/* Footer */
+
+footer {
+	font-size: .75em;
+	text-align: center;
+	clear: both;
+	padding-top: 50px;
+	color: #ccc;
+	bottom: 0;
+	position: fixed;
+	width: 100%;
+}
+
+.social-icon {
+	width: 30px;
+	height: 30px;
+	margin: 0 5px;
+}
+
+/* Colors */
+
+body {
+	background: #d4b26a; /* For browsers that do not support gradients */
+	background: -webkit-linear-gradient(#ffefaa, #806c15, #ffefaa); /* For Safari 5.1 to 6.0 */
+	background: -o-linear-gradient(#ffefaa, #806c15, #ffefaa); /* For Opera 11.1 to 12.0 */
+	background: -moz-linear-gradient(#ffefaa, #806c15, #ffefaa); /* For Firefox 3.6 to 15 */
+	background: linear-gradient(#ffefaa, #806c15, #ffefaa); /* Standard syntax */
+}
+
+aside {
+	background-color: #ffe3aa;
+
+}
+
+footer {
+	background-color: #806c15;
+
+}
+
+
+
