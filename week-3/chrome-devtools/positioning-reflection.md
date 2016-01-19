@@ -10,7 +10,6 @@
 
 
 
-<!-- 
 How can you use Chrome's DevTools inspector to help you format or position elements? Under the elements tab you can check and uncheck properties from the styles tab or edit a file within the Sources tab to change it live on the browser.
 
 How can you resize elements on the DOM using CSS? Changing the height & width to either px or %.  
@@ -20,4 +19,3 @@ What are the differences between absolute, fixed, static, and relative positioni
 What are the differences between margin, border, and padding? Margin will overlap with other margins that seperate two elements.  Padding will not overlap with other elements' padding.  Border is a styling element of what will surround an element.
 
 What was your impression of this challenge overall? (love, hate, and why?) Good to play around with to try and get our results to match up.  I thought this would be extremely easy and some ended up taking more time than I originally thought.
--->
