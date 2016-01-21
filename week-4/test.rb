@@ -1,3 +1,5 @@
-civ_array = [1,2,3,4,5,6]
+puts "What is your favorite color?"
+color = gets.chomp
+puts "your favorite color is " + color + "! What a great color!"
 
-puts civ_array[3]
+
