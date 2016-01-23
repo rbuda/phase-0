@@ -1,0 +1,31 @@
+.column-1 {
+  background-color: #d3d3d3;
+  display: table-cell;
+  width: 40%;
+  padding: 5%;
+}
+
+.column-2 {
+  background-color: #c0c0c0;
+  display: table-cell;
+  width: 40%;
+  padding: 5%;
+  margin-bottom: auto;
+}
+
+h2 {
+  background-color: #204e81;
+}
+
+footer {
+  background-color: #b0c4de;
+}
+
+.githead {
+  height: 10%;
+  width: 10%;
+}
+
+footer {
+text-align: center;
+}
