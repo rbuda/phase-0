@@ -5,5 +5,9 @@
 
 # Your Solution Below
 def factorial(number)
-	# Your code here
+  x = 1
+  (1..number).each do |number|
+    x *= number   
+  end
+  x
 end
