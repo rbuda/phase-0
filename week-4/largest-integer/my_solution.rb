@@ -11,6 +11,22 @@
 # If +list_of_nums+ is empty the method should return nil
 
 # Your Solution Below
+
 def largest_integer(list_of_nums)
-	highest = list_of_nums.max
+  	high_num = list_of_nums[0]
+  	count = 1
+  	while count < list_of_nums.length
+  		if high_num < list_of_nums[count]
+  			high_num = list_of_nums[count]
+  			count += 1
+  		else
+  			count += 1
+  		end
+  	end
+  	return high_num
 end
+
+# Refractor
+# def largest_integer(list_of_nums)
+# 	highest = list_of_nums.max
+# end

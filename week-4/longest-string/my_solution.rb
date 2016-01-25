@@ -13,7 +13,29 @@
 
 # Your Solution Below
 def longest_string(list_of_words)
-	list_of_words.max_by{|x| x.size}
+  if list_of_words.empty?
+  	nil
+  else
+  	count = 1
+  	actual_longest_string = list_of_words[0]
+  	longest_string = list_of_words[0].length
+  	while count < list_of_words.length
+  		if longest_string < list_of_words[count].length
+  			longest_string = list_of_words[count].length
+  			actual_longest_string = list_of_words[count]
+  			count += 1
+  		else
+  			count += 1
+  		end
+  	end
+  	actual_longest_string
+  end
 end
 
-# list_of_words.max { |x,y| x.size <=> y.size}
+
+# Refactor
+# def longest_string(list_of_words)
+# 	list_of_words.max_by{|x| x.size} OR
+# 	list_of_words.max { |x,y| x.size <=> y.size}
+# end
+

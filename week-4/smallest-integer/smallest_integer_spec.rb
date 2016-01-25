@@ -27,13 +27,11 @@ describe 'smallest_integer' do
 
   it "returns the smallest positive integer regardless of ordering" do
     array = (1..100).to_a.shuffle
-
     expect(smallest_integer(array)).to eq 1
   end
 
   it "returns the smallest negative integer regardless of ordering" do
     array = (-100..-10).to_a.shuffle
-
     expect(smallest_integer(array)).to eq -100
   end
 end
