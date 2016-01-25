@@ -1,5 +1,12 @@
-puts "What is your favorite color?"
-color = gets.chomp
-puts "your favorite color is " + color + "! What a great color!"
+expenses = {
+	"gas" => 34,
+	"electric" => 15,
+}
 
+puts expenses.key(15)
+# def grocery_list
+
+# end
+
+# grocery_list.store("butter" => "wholefoods") 
 
