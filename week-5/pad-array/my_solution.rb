@@ -1,25 +1,35 @@
 # Pad an Array
 
-# I worked on this challenge [with: a majority of the Sealions]
+# I worked on this challenge [with: Rokas Simkonis & Dan Heintzelman]
 
-# I spent [] hours on this challenge.
-
-
-# Complete each step below according to the challenge directions and
-# include it in this file. Also make sure everything that isn't code
-# is commented in the file.
-
-
+# I spent [2] hours on this challenge.
 
 # 0. Pseudocode
 
 # What is the input? 
-# What is the output? (i.e. What should the code return?) 
-# What are the steps needed to solve the problem?
+# array & long_array
 
-# What is the input? 
-# What is the output? (i.e. What should the code return?) 
+# What is the output? 
+# should return that it is an array and long_array
+# equals 30 total integers
+
 # What are the steps needed to solve the problem?
+# IF the length of the array is greater than or equal to the min_size arg return the array
+# ELSE set diff var for min_size minus array's length
+# create new var to form new array with diff var and value arg
+# join array and append arrays
+
+
+
+# What is the input? all arrays and arguements
+
+# What is the output? 
+# What are the steps needed to solve the problem?
+# duplicate array into new var, outside of method
+# IF new array's length is greater than or equal to min_size arg return new array
+# ELSE create new diff var equal to min_size arg minus new array's length
+# create append var equal to new array with diff var and value arg
+# join new duplicate array to new append array
 
 # 1. Initial Solution
 def pad!(array, min_size, value = nil)
@@ -32,9 +42,8 @@ def pad!(array, min_size, value = nil)
 	end
 end
 
-arr1 = [1,2,3,4,5,6]
-pad!(arr1, 10, 5)
-
+# arr1 = [[1,2,3] * 10]
+# pad!(arr1, 30, "apple")
 
 def pad(array, min_size, value = nil) 
 	new_a = array.dup
@@ -48,11 +57,27 @@ def pad(array, min_size, value = nil)
 	end
 end
 
-arr1 = [1,2,3,4,5,6]
-pad(arr1, 10, 5)
-
-# 3. Refactored Solution
-
-
+# arr1 = [1,2,3,4,5,6]
+# pad(arr1, 10, 5)
 
 # 4. Reflection
+
+# Were you successful in breaking the problem down into small steps?
+# We seemed to do better jumping in with the code and pseudoing our problematic spots.
+# 
+# Once you had written your pseudocode, were you able to easily translate it into code? What difficulties and successes did you have?
+# We were.  Wasn't easy with 2 navigators and one driver.  There were many times when the group had 3 ideas about how to finish the problem.
+
+# Was your initial solution successful at passing the tests? If so, why do you think that is? If not, what were the errors you encountered and what did you do to resolve them?
+# Our ELSE statements took the longest.  Weren't sure about concat vs push.  Also took awhile to figure out to .dup the array vs clone.
+
+# When you refactored, did you find any existing methods in Ruby to clean up your code?
+# Did not find any shortcuts to simplifier our intial solution.
+
+# How readable is your solution? Did you and your pair choose descriptive variable names?
+# The else part is a little confusing but I thought our var names were straight forward.
+
+# What is the difference between destructive and non-destructive methods in your own words?
+# Destructive is going to change the original variable versus non-destructive can set a new, different variable or return a different set only within a method.
+
+
