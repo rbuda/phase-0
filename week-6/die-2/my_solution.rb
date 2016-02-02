@@ -23,7 +23,7 @@ class Die
   		raise ArgumentError.new("ArgumentError")
   	end
     @labels = labels
-  	@sides = labels.length
+    @sides = labels.length
   end
 
   def sides
