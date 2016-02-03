@@ -51,3 +51,15 @@ p serving_size_calc("THIS IS AN ERROR", 5)
 
 #  Reflection
 
+# What did you learn about making code readable by working on this challenge?
+# Breaking into sections is easier.  Setting variables versus calculations within a #{}.
+
+# Did you learn any new methods? What did you learn about them?
+# I had to look up the .values_at? method as it's a little old an outdated.  Also found it as an easy way to return a key as an array
+
+# What did you learn about accessing data in hashes? 
+# Echo the statement above.  Easier to set variables than iterating through hash in if statements.
+
+# What concepts were solidified when working through this challenge?
+# Raising ArgumentErrors if and case stmts
+
