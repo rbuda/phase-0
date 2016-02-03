@@ -1,7 +1,7 @@
 # Die Class 2: Arbitrary Symbols
 
 # I worked on this challenge [by myself].
-# I spent [#] hours on this challenge.
+# I spent [3] hours on this challenge.
 
 # Pseudocode
 
