@@ -1,20 +1,29 @@
-class NameData
-	attr_accessor :name
+class BingoBoard
 
-	def initialize
-		@name = "Ryan Nebuda"
+numbers = [[1..20],[21..40],[41..60],[61..80],[81..100]]
+letters = ["B", "I", "N", "G", "O"]
+
+	def letternum
+		@sel_let = letters.shuffle.sample
+		return @sel_let
+		def numbers(sel_let)
+		  if @sel_let == "B"
+		    @num = rand(numbers[0][0])
+		  elsif @sel_let == "I"
+		    @num = rand(numbers[1][0])
+		  elsif @sel_let == "N"
+		    @num = rand(numbers[2][0])
+		  elsif @sel_let == "G"
+		    @num = rand(numbers[3][0])
+		  else @sel_let == "O"
+		    @num = rand(numbers[4][0])
+		  end
+		  return @num 
+		end
 	end
 end
 
-class Greetings
-	def initialize
-		@human = NameData.new
-	end
 
-	def hello
-		puts "Hello #{@human.name}! How wonderful to see you today."
-	end
-end
-
-greet = Greetings.new
-greet.hello
+new = BingoBoard.new
+puts "#{@num}"
+puts "#{@sel_let}"
