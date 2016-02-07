@@ -20,39 +20,29 @@ class Profile
     puts
   end
 
-  #this code is no longer needed.
-  # def what_is_age
-  #   @age
-  # end
-
-  def change_my_age=(new_age)
-    @age = new_age
+  def what_is_occupation
+    @occupation
   end
 
   def what_is_name
     @name
+  end  
+
+  def change_my_age=(new_age)
+    @age = new_age
   end
 
   def change_my_name=(new_name)
     @name = new_name
   end
 
-  def what_is_occupation
-    @occupation
-  end
-
   def change_my_occupation=(new_occupation)
     @occupation = new_occupation
   end
-
-
 end
 
 instance_of_profile = Profile.new
 
-# This method changed names! Now we have a method called #.age which returns the value of @age, just like what_is_age did. Thanks to attr_reader :age. If you don't believe me and you want to see for your self, paste lines 3 - 50 into IRB and type
-# instance_of_profile.methods - Object.methods
-#age() will be a member of this list!
 puts "--- printing age -----"
 sleep 0.8
 p instance_of_profile.age

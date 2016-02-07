@@ -21,11 +21,6 @@ class Profile
     puts
   end
 
-  # This code is no longer needed
-  # def change_my_age=(new_age)
-  #   @age = new_age
-  # end
-
   def what_is_name
     @name
   end
@@ -41,8 +36,6 @@ class Profile
   def change_my_occupation=(new_occupation)
     @occupation = new_occupation
   end
-
-
 end
 
 instance_of_profile = Profile.new
@@ -68,7 +61,6 @@ end
 instance_of_profile.age = 28 # This method has changed! See the difference?
 instance_of_profile.change_my_name = "Taylor"
 instance_of_profile.change_my_occupation = "Rare Coins Trader"
-
 
 puts
 puts "---- printing all profile info -----"

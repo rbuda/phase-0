@@ -1,21 +1,20 @@
-# class Item
-#   def initialize(item_name, quantity)
-#     @item_name = item_name
-#     @quantity = quantity
-#   end
-  
-#   def show
-#     puts @item_name
-#     puts @quantity
-#   end
-# end
+class NameData
+	attr_accessor :name
 
-# Item.new("tv",1).show
-# Item.new("fridge",1).show
+	def initialize
+		@name = "Ryan Nebuda"
+	end
+end
 
+class Greetings
+	def initialize
+		@human = NameData.new
+	end
 
-array = [1,2,3,4,5,6,7,8,9,10]
+	def hello
+		puts "Hello #{@human.name}! How wonderful to see you today."
+	end
+end
 
-test = []
-test = array.each { |x| print x += 2 }
-puts test
+greet = Greetings.new
+greet.hello
