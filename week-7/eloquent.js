@@ -5,8 +5,8 @@
 // Program Structure
 // Write your own variable and do something to it.
 
-
-
+var first = "First string in JavaScript!"
+console.log(first)
 
 // Complete one of the exercises: Looping a Triangle, FizzBuzz, or Chess Board
 
