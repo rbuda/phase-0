@@ -5,6 +5,26 @@
 // console.log(totalSeconds + " is " + minutes + " minutes and " + seconds + " seconds");
 
 
-var months = ["January", "February", "March"]
+var landscape = function() {
+  var result = "";
+  var flat = function(size) {
+    for (var count = 0; count < size; count++)
+      result += "_";
+  };
+  var mountain = function(size) {
+    result += "/";
+    for (var count = 0; count < size; count++)
+      result += "'";
+    result += "\\";
+  };
 
-console.log(array = [1,2,3,4,5]; array.push("string"); array;)
+  flat(3);
+  mountain(4);
+  flat(6);
+  mountain(1);
+  flat(1);
+  return result;
+};
+
+console.log(landscape());
+// → ___/''''\______/'\_
