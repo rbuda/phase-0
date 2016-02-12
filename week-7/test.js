@@ -28,3 +28,7 @@ var landscape = function() {
 
 console.log(landscape());
 // → ___/''''\______/'\_
+
+function square(x) {
+  return x * x;
+}
