@@ -5,12 +5,15 @@
 // __________________________________________
 // Write your code below.
 
-
-
-
-
-
-
+var secretNumber = 3;
+var secretNumber = 7;
+var password = "Two may enter, one may leave...";
+var password = "just open the door";
+var allowedIn = true;
+var allowedIn = false;
+var members = [];
+members.unshift("John")
+members.push("Paul", "Mike", "Mary")
 
 // __________________________________________
 
