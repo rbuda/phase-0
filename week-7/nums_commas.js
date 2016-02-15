@@ -1,13 +1,4 @@
-// Separate Numbers with Commas in JavaScript **Pairing Challenge**
-/*
-n week 5, you completed a solo challenge to separate numbers with commas. In this challenge, you pair to solve this problem again using JavaScript.
-
-Create a function separateComma. It should accept an integer as an argument and return a comma-separated integer as a string.
-
-We recommend thinking through the logic with your pair without looking at your old pseudocode or solution. Get your brain thinking about the problem in a fresh, new way. Also, do not use Regular Expressions to complete this challenge. Regular Expressions look for patterns and are recognizable because they will be shown between two slashes, like so: /\d/.a
-*/
-
-// I worked on this challenge with: .
+// I worked on this challenge with: Rokas Simonkis
 
 // Pseudocode
 /*
@@ -24,55 +15,26 @@ We recommend thinking through the logic with your pair without looking at your o
 
 */
 
-
 // Initial Solution
-function seperateComma(int) {
-  var str = int.toString();
-  var str_len = str.length;   
-      
-  var array = str.split('');
-  var array_rev = array.reverse();
-  // var array_slice = array_rev.slice(3);
   
-  console.log(array);
-  array.splice(i, 0, ',');
-  for (var i = 4; i < str_len; i++) {
-    if (i % 3 == 0) {
-      array.splice(i, 0, ',');
-      array.push[""];
-      console.log(i);
-    }
-    
+function separateComma(number) {
+  var num = number.toString().split("");
+  var length = num.length;
+  for (var x = length - 3; x > 0; x -= 3) {
+    num.splice( x, 0, ",");
   }
-  //console.log(array);
-  
-  var array_revback = array.reverse();
-  var str2 = array_revback.join('').toString();
-  
-  //console.log(array);
-  console.log(str2);
-  
-//   console.log(str);
-//   console.log(str_len);
-  
-//   console.log(array_slice);
-//   console.log(array_rev);   
-  
-//   console.log(array);
-};
+  console.log(num.join(""));
+}
 
-seperateComma(10000000);
-
-// Refactored Solution
-
-
-
-
-// Your Own Tests (OPTIONAL)
-
-
-
+console.log(separateComma(10000000));
 
 // Reflection
 
-// separateComma(1569743) == "1,569,743"
+// What was it like to approach the problem from the perspective of JavaScript? Did you approach the problem differently? substituting vocab around a lot.  Error messages are much harder to diagnose.
+
+// What did you learn about iterating over arrays in JavaScript? iterating is different as it needs 3 different sections to be filled in the for method ()'s.
+
+// What was different about solving this problem in JavaScript? the splice method - telling it which index, how many and what to put in.
+
+// What built-in methods did you find to incorporate in your refactored solution? splice, length, split, join.  Very similar to Ruby.
+
