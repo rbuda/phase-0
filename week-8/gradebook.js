@@ -1,8 +1,8 @@
 /*
 Gradebook from Names and Scores
 
-I worked on this challenge [by myself, with:]
-This challenge took me [#] hours.
+I worked on this challenge [Tori Huang, Rokas Simonkis:]
+This challenge took me [2] hours.
 
 You will work with the following two variables.  The first, students, holds the names of four students.
 The second, scores, holds groups of test scores.  The relative positions of elements within the two
@@ -19,41 +19,72 @@ var scores = [ [80, 70, 70, 100],
                [75, 70, 80, 75],
                [100, 90, 95, 85] ]
 
-
-
-
-
-
 // __________________________________________
 // Write your code below.
 
+var gradebook = {};
 
+function student (name, scores) {
+  this.name = name;
+  this.scores = scores;
+}
 
+for (var i in students) {
+  gradebook[students[i]] = {};
+  gradebook[students[i]]["testScores"] = scores[i];
+}
 
+gradebook.addScore = function (name, score) {
+  gradebook[name].testScores.push(score);
+}
 
+function average (num_array) {
+  var avg = null;
+  for(var i = 0; i < num_array.length; i++ ) {
+    avg += num_array[i];
+  }
+  avg = avg / num_array.length;
+  return avg;
+}
 
-
+gradebook.getAverage = function(name) {
+  return average(gradebook[name].testScores);
+}
 
 // __________________________________________
 // Refactored Solution
 
+var gradebook = {};
 
+for (var i in students) {
+  gradebook[students[i]] = {testScores: scores[i]};
+}
 
+gradebook.addScore = function (name, score) {
+  gradebook[name].testScores.push(score);
+}
 
+function average (num_array) {
+  var avg = null;
+  for(var i = 0; i < num_array.length; i++ ) {
+    avg += num_array[i];
+  }
+  avg = avg / num_array.length;
+  return avg;
+}
 
-
-
+gradebook.getAverage = function(name) {
+  return average(gradebook[name].testScores);
+}
 
 // __________________________________________
 // Reflect
 
+// What did you learn about adding functions to objects? 
 
+// How did you iterate over nested arrays in JavaScript? 
 
-
-
-
-
-
+// Were there any new methods you were able to incorporate? If so, what were they and how did they work? 
 
 // __________________________________________
 // Test Code:  Do not alter code below this line.
