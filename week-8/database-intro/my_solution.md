@@ -31,4 +31,4 @@ What is a primary key? What is a foreign key? How can you determine which is whi
 
 How can you select information out of a SQL database? What are some general guidelines for that? Always think what you're SELECTing and FROM what table.  Then think of what you want to pull and what conditions to align it with (WHERE).  If you want the data organized ORDER BY.  Very readable and almost like you're telling the command line a statement of what you're ultimately looking for.
 
-![Clueless Outfits Schema](cluelessoutfits.001.jpeg)
+![Clueless Outfits Schema](cluelessoutfits.jpeg)
