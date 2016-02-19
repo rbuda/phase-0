@@ -30,3 +30,5 @@ What is a one-to-many relationship? when a database's tables are linked to each 
 What is a primary key? What is a foreign key? How can you determine which is which? Primary key is specific to the row of data it belongs to.  It cannot be a duplicate and cannot be NULL.  Foreign keys contain the primary key of another table in their database making them "foreign".  They can be NULL and do not need to be unique.
 
 How can you select information out of a SQL database? What are some general guidelines for that? Always think what you're SELECTing and FROM what table.  Then think of what you want to pull and what conditions to align it with (WHERE).  If you want the data organized ORDER BY.  Very readable and almost like you're telling the command line a statement of what you're ultimately looking for.
+
+![Alt tag](relative/path/to/clueless outfits.key)
