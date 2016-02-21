@@ -1,11 +1,8 @@
 #### Release 2: One-to-One
 ![One-to-One](8.5.1.jpeg)
-
 This relationship works as each game player needs to select a civilization within the game options.  Each civilization is unique and would have its' own primary id.  I could create additional tables for maps, age, climates, water levels and etc.  
-
 #### Release 4: Many-to-Many
 ![Many-to-Many](8.5.2.jpeg)
-
 #### Release 6: Reflect
 
 What is a one-to-one database? When a database has a primary key connected to only one other foreign key.  
