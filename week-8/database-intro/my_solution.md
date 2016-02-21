@@ -1,4 +1,4 @@
-1. SELECT * FROM states;
+l1. SELECT * FROM states;
 2. SELECT * FROM regions;
 3. SELECT state_name, population FROM states;
 4. SELECT state_name, population FROM states ORDER BY population DESC;
