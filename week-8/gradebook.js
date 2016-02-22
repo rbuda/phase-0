@@ -80,11 +80,11 @@ gradebook.getAverage = function(name) {
 // __________________________________________
 // Reflect
 
-// What did you learn about adding functions to objects? 
+// What did you learn about adding functions to objects? It is similar to Ruby which makes putting it into perspective easier.
 
-// How did you iterate over nested arrays in JavaScript? 
+// How did you iterate over nested arrays in JavaScript? We used a for loop.
 
-// Were there any new methods you were able to incorporate? If so, what were they and how did they work? 
+// Were there any new methods you were able to incorporate? If so, what were they and how did they work? We did not find any new methods>  We were able to slim our refactored code down some.
 
 // __________________________________________
 // Test Code:  Do not alter code below this line.
