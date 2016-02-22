@@ -1,7 +1,7 @@
 // Tally Votes in JavaScript Pairing Challenge.
 
 // I worked on this challenge with: Jones Melton
-// This challenge took me [#] hours.
+// This challenge took me [4] hours.
 
 // These are the votes cast by each student. Do not alter these objects here.
 var votes = {
@@ -96,15 +96,10 @@ var tally = function(object) {
 tally(votes);
 
 // __________________________________________
-// Refactored Solution
-
-
-
-// __________________________________________
 // Reflection
 
-// What did you learn about iterating over nested objects in JavaScript?
-// Important to name your variables and items within a for loop in clear concise terms.  When iterating though multiple levels of repetitive items, gets easy to forgot what you're calling everything.
+// What did you learn about iterating over nested objects in JavaScript? 
+// Helps to console.log each iteration to know where you are within the data. Also is important to name your variables and items within a for loop in clear concise terms.  When iterating though multiple levels of repetitive items, gets easy to forgot what you're calling everything.
 
 // Were you able to find useful methods to help you with this?
 // .hasOwnProperty solved our issue with the first 4 asserts.
