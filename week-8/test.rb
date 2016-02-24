@@ -1,14 +1,14 @@
-monthly_bills = {
-  "January" => {
-    rent: 13,
-    water: 10,
-    gas: 4,
-  },
-  "Feburary" => {
-    rent: 13,
-    gas: 10,
-    water: 14,
-  },
-}
+# hash = Hash.new
 
-puts monthly_bills["January"][:water]
+# %w(cat dog wombat).each_with_index { |item, index| 
+#   hash[item] = index
+# }
+
+# puts hash
+
+
+def where_am_i(list, item)
+  list.each_with_index {|item| return index if item == item}
+end
+
+where_am_i("cat", "item")
