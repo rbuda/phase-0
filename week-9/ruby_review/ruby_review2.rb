@@ -34,9 +34,14 @@ end
 
 # Refactored Solution
 
-
-
-
-
+def super_fizzbuzz(array)
+  array.map! do |num|
+    string = ''
+    string += "Fizz" if num % 3 == 0
+    string += "Buzz" if num % 5 == 0
+    string.length > 0 ? string : num
+  end
+  return array
+end
 
 # Reflection
