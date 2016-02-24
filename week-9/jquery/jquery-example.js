@@ -44,7 +44,7 @@ cohort.html()
 
 //RELEASE 5: Experiment on your own
 
-// What is jQuery? It is the library for JavaScript.  Handles the manipulation of websites with JS.
+// What is jQuery? It is the library for JavaScript.  Handles the manipulation of websites with JS.  
 
 // What does jQuery do for you? Handles manipulation of websites to give them actions, movements, changes in display etc.
 
